@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Ubuntu&display=swap" rel="stylesheet">
+    <title>Apartamento</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: 'Ubuntu', sans-serif;
+            background-color: #eee;
+        }
+        h1{
+            background-color: #ddd;
+            color: #333;
+            height: 8vh;
+            padding: 0.5em;
+            text-align: center;
+            border-bottom: 2px solid #888;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: #000;
+            margin-bottom: 2vh;
+        }
+        .photoGrid{
+            display: flex-box;
+            text-align: center;
+            width: 98vw;
+        }
+        .photoGrid img{
+            width: 500px;
+            margin: 0.2em;
+            border: 2px solid white;
+            cursor: pointer;
+        }
+        iframe{
+            width: 80vw;
+            height: 70vh;
+            margin-left: 10vw;
+            margin-top: 3vh;    
+        }
+        h2{
+            text-align: center;
+            margin-top: 2vh;
+            font-size: xx-large;
+        }
+        #panorama{
+            width: 95vw;
+            margin-left: 2.5vw;
+            margin-top: 2vh;
+            margin-bottom: 3vh;
+            border: 2px solid white;
+        }
+        footer{
+            height: 3vh;
+            background-color: #666;
+            padding: 0.5em;
+            text-align: center;
+            border-top: 1px solid #333;
+        }
+        footer span{
+            position: relative;
+            bottom: 6px;
+            font-weight: 700;
+            color: #fff;
+        }
+        footer span a{
+            text-decoration: none;
+            color: #eee;
+        }
+    </style>
+</head>
+<body>
+    <h1>Apartamento - Galeria de Fotos</h1>
+    <div class="photoGrid">
+        <a href="./resurces/1.jpg"><img src="./resurces/1.jpg" alt="Foto 1"></a>
+        <a href="./resurces/2.jpg"><img src="./resurces/2.jpg" alt="Foto 2"></a>
+        <a href="./resurces/3.jpg"><img src="./resurces/3.jpg" alt="Foto 3"></a>
+        <a href="./resurces/4.jpg"><img src="./resurces/4.jpg" alt="Foto 4"></a>
+        <a href="./resurces/5.jpg"><img src="./resurces/5.jpg" alt="Foto 5"></a>
+        <a href="./resurces/6.jpg"><img src="./resurces/6.jpg" alt="Foto 6"></a>
+        <a href="./resurces/7.jpg"><img src="./resurces/7.jpg" alt="Foto 7"></a>
+        <a href="./resurces/8.jpg"><img src="./resurces/8.jpg" alt="Foto 8"></a>
+        <a href="./resurces/9.jpg"><img src="./resurces/9.jpg" alt="Foto 9"></a>
+        <a href="./resurces/10.jpg"><img src="./resurces/10.jpg" alt="Foto 10"></a>
+        <a href="./resurces/11.jpg"><img src="./resurces/11.jpg" alt="Foto 11"></a>
+    </div><hr>
+    <div class="movie">
+        <h2>Vídeo de Apresentação</h2>
+        <iframe src="https://www.youtube.com/embed/xV8H0berbQ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div><hr>
+    <h2>Panorama da Sala - Clique para Visualizar (PC)</h2>
+    <a href="./panoram.html"><img src="./resurces/P.jpg" alt="P" id="panorama"></a>
+    <br>
+    <footer>
+        <span>Desenvolvido por <a href="https://github.com/UrielBelo">@Uriel Belo</a></span>
+    </footer>
+</body>
+</html>
